@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movistar Salto</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e7c6dded6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+    <div class="contenedor_loader">
+        <div class="loader"></div>
+      </div>
+
+    <!-- Menu-bar -->
+    <div class="bars__menu">
+        <span class="line1__bars-menu"></span>
+        <span class="line2__bars-menu"></span>
+        <span class="line3__bars-menu"></span>
+    </div>
+
+    <!-- Navegacion MOVISTAR -->    
+    <nav class="conteiner-nav">
+        <div class="navegacion">
+            <a href="index.html"><img src="../Imagenes movistar/logo-Movista.png" alt="Movistar"></a>
+            <a href="surcursales.html">Surcursales</a>
+            <a href="productos.html">Productos</a>
+            <a href="contactanos.html">Atención al cliente</a>
+        </div>
+    </nav>
+
+
+        <!-- Conteiner buscar -->
+        <div class="conteiner-buscar">
+            <div class="dropdown-products">
+                <span><i class="fa-solid fa-bars"></i> Productos-menu</span>
+                <ul id="ul_buscar">
+                    <li>Iphone</li>
+                    <li>Samsung</li>
+                    <li>Nokia</li>
+                    <li>HUAWEI</li>
+                    <li>REDMI</li>
+                    <li>Motorola</li>
+                    <li>Accesorios</li>
+                </ul>
+            </div>
+            <div class="buscar">
+                <input type="search" class="buscar-input" placeholder="Buscar">
+            </div>
+        </div>
+
+        <!-- Pagina principal buscar -->
+        <section class="contenido">
+            <div class="mostrador" id="mostrador">
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Iphone 12 xd</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Motorola 14 Modelo S</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Samsung 14 Modelo S</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Nokia 14 Modelo S</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Huawei 14 Modelo S</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Redmi 14 Modelo S</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Motorola 14 Modelo S</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../descargas/pngwing.com.png" alt="a">
+                            <p class="descripcion">Accesorios Modelo S</p>
+                            <span class="precio">$ 1.500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seleccion" id="seleccion">
+                <div class="cerrar" onclick="cerrar()">
+                    &#x2715
+                </div>
+                <div class="info">
+                    <img src="../descargas/pngwing.com.png" alt="a">
+                    <h2 id="modelo">Celular</h2>
+                    <p id="descripcion">DESC CELULAR</p>
+
+                    <span class="precio" id="precio">$ ??</span>
+
+                    <div class="fila">
+                        <button>Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <div class="footer">
+            <div class="navegacion-footer">
+                <p>Siguenos</p>
+                <a href="https://www.instagram.com/movistaruy/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100010436977819"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://twitter.com/movistar"><i class="fa-brands fa-square-twitter"></i></a>
+                <img src="/Imagenes movistar/logo-Movista.png" alt="Logo">
+            </div>
+        </div>
+
+
+        <script src="../javascript/dropdownmenuproducts.js"></script>
+        <script src="../javascript/preload.js"></script>
+        <script src="../javascript/app.js"></script>
+        <script src="../javascript/producto.js"></script>
+        <script src="../javascript/menuhamburguesa.js"></script>
+    
+</body>
+
+</html>
