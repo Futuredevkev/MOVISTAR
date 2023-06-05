@@ -14,7 +14,7 @@ let precioSeleccionado = document.getElementById("precio");
 function cargar(item) {
     quitarBordes();
     mostrador.style.width = "60%";
-    seleccion.style.width = "40%";
+    seleccion.style.width = "60%";
     seleccion.style.opacity = "1";
     
 
