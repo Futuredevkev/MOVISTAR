@@ -1039,7 +1039,7 @@ z-index: 100000;
 }
 
 .adelante {
-    top: calc(58.5% - 70px);
+    top: calc(60% - 70px);
 }
 
 .contenedor {
@@ -1051,7 +1051,7 @@ z-index: 100000;
   @media screen and (max-width: 390px) {
 
     .atras {
-        top: calc(90% - 60%);
+        top: calc(86% - 60%);
     }
     
     .adelante {
