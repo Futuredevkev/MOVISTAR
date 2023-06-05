@@ -986,6 +986,9 @@ z-index: 100000;
   /* MQ */
 
   @media screen and (max-width: 768px) {
+    .contenedor img {
+        height: 50%;
+    }
 
     section {
         align-items: start;
@@ -1031,21 +1034,31 @@ z-index: 100000;
     width: 80%;
    }
 
+   .atras {
+    top: calc(95% - 60%);
+}
+
+.adelante {
+    top: calc(58.5% - 70px);
+}
+
+.contenedor {
+    height: auto;
+}
+
   }
 
   @media screen and (max-width: 390px) {
 
     .atras {
-        top: calc(85% - 60%);
+        top: calc(90% - 60%);
     }
     
     .adelante {
-        top: calc(34.5% - 70px);
+        top: calc(61.5% - 70px);
     }
 
-    .contenedor img {
-        height: 60%;
-    }
+ 
 
     .nav-auto {
         width: 300px;
